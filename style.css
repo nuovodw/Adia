@@ -205,8 +205,8 @@ li a {
 footer {
 	display: flex;
 	justify-content: center;
-	padding: 2rem 0 2rem 0;
-	margin-bottom: 4rem;
+	background-color: #000;
+	padding: 3.5rem;
 }
 
 .social {
