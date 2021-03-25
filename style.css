@@ -108,6 +108,17 @@ body {
 	justify-content: center;
 }
 
+/* div.menu-items-container {
+	border: red 10px solid;
+	width: 100%;
+} */
+
+/* a {
+	border: red 10px solid;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+} */
 /* .hamburger {
 	display: none;
 } */
@@ -133,18 +144,6 @@ body {
 		margin: 0px;
 	}
 
-	.logo {
-		display: none;
-	} 
-
-	#nav-list {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		font-size: 0.7em;
-	}
-}
-*/
 
 li {
 	color: white;
