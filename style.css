@@ -220,3 +220,12 @@ footer {
 	color: var(--adia-color);
 	margin: 15px;
 }
+
+@media screen and (max-width: 800px) {
+	img {
+		object-fit: cover;
+		width: 100vw;
+		height: 100vh;
+		z-index: 0;
+	}
+}
