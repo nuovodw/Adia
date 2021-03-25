@@ -87,15 +87,6 @@ body {
 	text-transform: uppercase;
 }
 
-/* .logo {
-	display: flex;
-	justify-content: flex-start;
-	color: transparent;
-	height: 50px;
-	margin-top: 10px;
-	margin-left: 10px;
-} */
-
 .menu {
 	display: flex;
 	flex-direction: column;
