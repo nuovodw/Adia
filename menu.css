@@ -126,15 +126,15 @@
 	align-items: center;
 	justify-content: center;
 	/* transform: scale(0); */
-	transition: all  ease;
+	transition: all ease;
 }
 
 .menu-wrap .menu > div > div {
-		display: flex;
-		justify-content: center;
-		color: white;
-	}
+	display: flex;
+	justify-content: center;
+	color: white;
 }
+
 .menu-wrap .menu > div > div > div {
 	text-align: center;
 	max-width: 90vw;
@@ -145,12 +145,15 @@
 
 /* boostrap css ⬇ */
 
-dl, ol, ul {
+dl,
+ol,
+ul {
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
-ol, ul {
+ol,
+ul {
 	padding-left: 0;
 }
 
