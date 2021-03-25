@@ -19,6 +19,28 @@ body {
 	/* min-height: 100vh; */
 }
 
+/* carousel */
+/* .carousel-item,
+.carousel-inner,
+.carousel-inner img {
+} */
+
+.carousel-item {
+	text-align: center;
+}
+
+.carousel {
+	display: flex;
+	justify-content: center;
+	z-index: 0;
+}
+
+/* carousel  */
+
+.background-image2 {
+	height: auto;
+}
+
 .standing-image {
 	display: flex;
 	justify-content: center;
