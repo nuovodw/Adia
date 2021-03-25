@@ -12,11 +12,10 @@
 }
 
 body {
-	font-family: 'Chivo', sans-serif;
-
+	font-family: 'Fjalla One', sans-serif;
 	font-weight: 900;
 	background-color: #f5eee5;
-	/* min-height: 100vh; */
+	/* height: 100vh; */
 }
 
 /* carousel */
@@ -25,14 +24,14 @@ body {
 .carousel-inner img {
 } */
 
-.carousel-item {
-	text-align: center;
-}
-
 .carousel {
 	display: flex;
 	justify-content: center;
 	z-index: 0;
+}
+
+.carousel-item {
+	text-align: center;
 }
 
 /* carousel  */
