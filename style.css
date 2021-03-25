@@ -14,7 +14,8 @@
 body {
 	font-family: 'Fjalla One', sans-serif;
 	font-weight: 900;
-	background-color: #f5eee5;
+	background-color: #fff;
+	/* background-color: #f5eee5; */
 	/* height: 100vh; */
 }
 
@@ -77,7 +78,8 @@ body {
 } */
 
 .menu-wrap {
-	background-color: #070707; /*#202020*/
+	/* background-color: #070707; #202020 */
+	background-color: #000000;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -96,7 +98,7 @@ body {
 .main-container {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	align-content: center;
 }
 
 /* div.menu-items-container {
@@ -189,7 +191,8 @@ li a {
 
 #video2,
 #video4 {
-	background-color: #202020;
+	/* background-color: #202020; */
+	background-color: #000;
 	padding: 10%;
 }
 
