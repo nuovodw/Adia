@@ -14,7 +14,7 @@
 body {
 	font-family: 'Fjalla One', sans-serif;
 	font-weight: 900;
-	background-color: #fff;
+	background-color: #000;
 	/* background-color: #f5eee5; */
 	/* height: 100vh; */
 }
@@ -189,10 +189,10 @@ li a {
 	padding: 10%;
 }
 
-#video2,
-#video4 {
+#feature-video,
+#video3 {
 	/* background-color: #202020; */
-	background-color: #000;
+	background-color: #fff;
 	padding: 10%;
 }
 
@@ -218,7 +218,7 @@ li a {
 	display: flex;
 	justify-content: center;
 	background-color: #000;
-	color: #fff;
+	color: rgb(134, 134, 134);
 	letter-spacing: 0.1rem;
 	font-weight: 500;
 }
