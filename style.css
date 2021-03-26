@@ -2,7 +2,6 @@
 	--primary-color: rgba(7, 7, 7, 0.9);
 	--overlay-color: rgba(7, 7, 7, 0.6);
 	--adia-color: rgba(237, 20, 94, 1);
-	/* --menu-speed: 0.75s; */
 }
 
 * {
@@ -15,8 +14,6 @@ body {
 	font-family: 'Fjalla One', sans-serif;
 	font-weight: 900;
 	background-color: #000;
-	/* background-color: #f5eee5; */
-	/* height: 100vh; */
 }
 
 h1 {
@@ -47,38 +44,7 @@ h1 {
 	width: 100%;
 }
 
-/* .container {
-	max-width: 960px;
-	margin: auto;
-	overflow: hidden;
-	padding: 0 3rem;
-} */
-
-/* #showcase {
-	height: 100vh;
-	top: 0;
-	left: 0;
-	width: 100%;
-}
-
-@media only screen and (min-width: 2000px) {
-	.background-image2 {
-		display: none;
-	} */
-
-/* #showcase {
-	display: flex;
-	justify-content: center;
-	width: 100%;
-	height: 100vh;
-	background: url(./images/profile2.jpg) no-repeat center center/cover;
-	top: 0;
-	left: 0;
-	width: 100%;
-} */
-
 .menu-wrap {
-	/* background-color: #070707; #202020 */
 	background-color: #000000;
 	display: flex;
 	justify-content: space-between;
@@ -101,72 +67,10 @@ h1 {
 	align-content: center;
 }
 
-/* div.menu-items-container {
-	border: red 10px solid;
-	width: 100%;
-} */
-
-/* a {
-	border: red 10px solid;
-	display: flex;
-	flex-direction: row;
-	height: 100%;
-} */
-/* .hamburger {
-	display: none;
-} */
-
-/* .hamburger:focus {
-	outline: 0;
-} */
-
-/* @media only screen and (max-width: 1000px) {
-	.hamburger {
-		display: block;
-		border: 0;
-		background-color: transparent;
-		color: white;
-		font-size: 40px;
-		margin: 20px;
-		align-self: flex-end;
-	}
-
-	.menu {
-		display: none;
-		background-color: #3b3b3b;
-		margin: 0px;
-	}
-
-
-li {
-	color: white;
-	list-style-type: none;
-	margin: 15px;
-}
-
 li a {
 	text-decoration: none;
 	color: white;
 }
-
-/* .showcase-inner {
-	display: flex;
-	justify-content: center;
-	width: 100%;
-} */
-
-/* .standing-image {
-	display: flex;
-	justify-content: center;
-	width: 100%;
-} */
-/* Videos*/
-/* .music-video {
-	display: flex;
-	justify-content: center;
-	margin-top: 50px;
-	margin-bottom: 50px;
-} */
 
 .video-container {
 	position: relative;
@@ -189,16 +93,9 @@ li a {
 
 #feature-video,
 #video3 {
-	/* background-color: #202020; */
 	background-color: #fff;
 	padding: 10%;
 }
-
-/* .video-background {
-	margin: 5rem 2rem;
-} */
-
-/* footer */
 
 .footer-socials {
 	display: flex;
@@ -225,11 +122,3 @@ li a {
 	color: rgb(134, 134, 134);
 	font-size: 14px;
 }
-/* @media screen and (max-width: 800px) {
-	img {
-		object-fit: cover;
-		width: 100vw;
-		height: 100vh;
-		z-index: 0;
-	}
-} */
