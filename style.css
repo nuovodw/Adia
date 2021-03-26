@@ -19,12 +19,12 @@ body {
 	/* height: 100vh; */
 }
 
-/* carousel */
-/* .carousel-item,
-.carousel-inner,
-.carousel-inner img {
-} */
-
+h1 {
+	border: red 5px solid;
+	width: 100%;
+	text-align: right;
+	position: absolute;
+}
 .carousel {
 	display: flex;
 	justify-content: center;
