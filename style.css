@@ -20,6 +20,7 @@ body {
 }
 
 h1 {
+	visibility: hidden;
 	width: 100%;
 	text-align: right;
 	position: absolute;
@@ -215,9 +216,14 @@ li a {
 	display: flex;
 	justify-content: center;
 	background-color: #000;
-	color: rgb(134, 134, 134);
 	letter-spacing: 0.1rem;
 	font-weight: 500;
+}
+
+.footer-colophon > p > a {
+	text-decoration: none;
+	color: rgb(134, 134, 134);
+	font-size: 14px;
 }
 /* @media screen and (max-width: 800px) {
 	img {
