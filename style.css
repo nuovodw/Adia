@@ -117,8 +117,11 @@ li a {
 	font-weight: 500;
 }
 
+p {
+	color: rgb(134, 134, 134);
+}
 .footer-colophon > p > a {
-	text-decoration: none;
+	text-decoration: underline;
 	color: rgb(134, 134, 134);
 	font-size: 14px;
 }
