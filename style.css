@@ -119,6 +119,7 @@ li a {
 
 p {
 	color: rgb(134, 134, 134);
+	font-size: 14px;
 }
 .footer-colophon > p > a {
 	text-decoration: underline;
