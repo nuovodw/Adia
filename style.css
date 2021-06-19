@@ -2,6 +2,11 @@
 	--primary-color: rgba(7, 7, 7, 0.9);
 	--overlay-color: rgba(7, 7, 7, 0.6);
 	--adia-color: rgba(237, 20, 94, 1);
+	--about-font-color: rgb(224, 224, 224);
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 * {
@@ -10,10 +15,16 @@
 	padding: 0;
 }
 
+header main {
+	display: flex;
+	justify-content: center;
+}
+
 body {
 	font-family: 'Fjalla One', sans-serif;
 	font-weight: 900;
 	background-color: #000;
+	min-width: 300px;
 }
 
 h1 {
@@ -22,6 +33,37 @@ h1 {
 	text-align: right;
 	position: absolute;
 }
+
+/* Bio */
+p.bio-paragrah {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	line-height: 1.6;
+	font-weight: 600;
+	color: var(--about-font-color);
+}
+@media (min-width: 576px) {
+	p.bio-paragrah {
+		font-size: 1.2rem;
+	}
+}
+@media (min-width: 992px) {
+	p.bio-paragrah {
+		font-size: 1.4rem;
+	}
+}
+@media (min-width: 1200px) {
+	p.bio-paragrah {
+		font-size: 2rem;
+	}
+}
+
+.accent-font {
+	color: var(--adia-color);
+}
+
+/* carousel  */
+
 .carousel {
 	display: flex;
 	justify-content: center;
@@ -31,8 +73,6 @@ h1 {
 .carousel-item {
 	text-align: center;
 }
-
-/* carousel  */
 
 .background-image2 {
 	height: auto;
