@@ -155,7 +155,7 @@ ul {
 	transition: color 0.2s ease;
 }
 
-@media only screen and (max-height: 500px) {
+@media only screen and (max-width: 500px) {
 	.menu-wrap .menu > div {
 		background-color: var(--overlay-color);
 		width: 100%;
@@ -173,7 +173,7 @@ ul {
 	/* menu items  */
 	ul {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: space-between;
 		color: white;
 	}
