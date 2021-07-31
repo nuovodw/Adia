@@ -1,5 +1,12 @@
 .menu-wrap {
 	position: fixed;
+	background-color: #000000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 900;
+	font-size: 1.3em;
+	text-transform: uppercase;
 	top: 0;
 	left: 0;
 	z-index: 1;
@@ -106,6 +113,12 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.menu-wrap .menu .main-container {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
 }
 
 .menu-wrap .menu > div {
