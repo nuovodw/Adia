@@ -20,13 +20,8 @@ body {
 	font-weight: 900;
 	background-color: #000;
 	min-width: 300px;
-}
-
-header,
-main {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 h1 {
@@ -69,6 +64,11 @@ p.bio-paragrah {
 	justify-content: center;
 	z-index: 0;
 }
+
+/* .section-container {
+	max-width: 78rem;
+	margin: 0 auto;
+} */
 
 .video-container {
 	position: relative;

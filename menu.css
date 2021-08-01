@@ -1,5 +1,5 @@
 .menu-wrap {
-	position: fixed;
+	position: relative;
 	background-color: #000000;
 	display: flex;
 	justify-content: space-between;
@@ -128,7 +128,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: var(--adia-color) 2px solid;
+	border: var(--adia-color) 5px solid;
 }
 
 /* social icons */
