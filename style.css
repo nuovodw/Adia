@@ -90,7 +90,7 @@ p.bio-paragrah {
 	font-size: 3.5rem;
 } */
 
-.carousel .carousel-inner .hero-button-container {
+/* .carousel .carousel-inner .hero-button-container {
 	position: absolute;
 	z-index: 999;
 	display: flex;
@@ -196,7 +196,7 @@ p.bio-paragrah {
 	.carousel .hero-button-container .contact-button {
 		margin-left: 0;
 	}
-}
+} */
 
 .video-container {
 	position: relative;

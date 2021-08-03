@@ -58,6 +58,7 @@
 
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="menu.css" />
+		<link rel="stylesheet" href="form.css" />
 	</head>
 	<body>
 		<header>
@@ -146,7 +147,7 @@
 							<ul>
 								<li><a href="index.html">Home</a></li>
 								<li>
-									<a href="about2.html"> About</a>
+									<a href="about.html"> About</a>
 								</li>
 								<li>
 									<a href="https://soundcloud.com/adiasound" target="_blank">
@@ -163,7 +164,12 @@
 								</li>
 
 								<li>
-									<a href="contact.html" rel="noopener noreferrer">Contact</a>
+									<a
+										href="mailto:adia@adiasound.com"
+										target="_blank"
+										rel="noopener noreferrer"
+										>Contact</a
+									>
 								</li>
 							</ul>
 						</div>
@@ -219,56 +225,78 @@
 				</button>
 			</div>
 		</header>
-		<main>
-			<!-- Bio -->
-			<div class="container">
-				<div class="paragraphs-container mx-md-5 my-md-5">
-					<p class="bio-paragrah mx-4 my-4">
-						<span class="accent-font">Adia</span> is a neo-soul rock violinist,
-						singer and songwriter from Chicago whose groundbreaking live
-						improvisational skills put her in a category of her own in the
-						growing DJ violin genre.
-					</p>
-					<p class="bio-paragrah mx-4">
-						A prodigy since three and a half years old, Adia’s classical studies
-						culminated with a Master of Music in performance from DePaul School
-						of Music. Late in her studies Adia embarked on a journey far removed
-						from her classical roots when she began studying her new found
-						passion - blues and rock guitar legends such as B.B.&nbsp;King,
-						Eric&nbsp;Clapton, Slash and Jimi&nbsp;Hendrix to name a few. Adia
-						went beyond absorbing their tricks and techniques, ultimately
-						connecting with the visceral power behind their music.
-					</p>
-					<p class="bio-paragrah mx-4">
-						It is precisely this innovative, guitar-sounding energy from her
-						electric fiddle that makes Adia a truly unique violinist in the
-						world,
-						<span class="accent-font"
-							>winning the 2014 Judges’ Selection for the Experience Hendrix
-							Tour</span
-						>
-						and the
-						<span class="accent-font"
-							>2013 Steve Vai Best in Shred competition.</span
-						>
-						Adia’s DJ violin sets combine dance and lounge DJ music with her
-						electrifying classical, soulful and jazzy riffs. The result is a
-						virtuosic performance that is both highly entertaining and connects
-						with the audience on a deep emotional level.
-					</p>
-					<p class="bio-paragrah mx-4">
-						In addition to DJ violin Adia is also the founder and front woman of
-						the hot new classical crossover group
-						<span class="accent-font">Electric&nbsp;5</span>, as well as the
-						indie rock band
-						<span class="accent-font"
-							>Adia&nbsp;&&nbsp;The&nbsp;7&nbsp;Eyes.</span
-						>
-						She is a regular performer on Fox’s hit music series Empire, and has
-						performed with numerous top artists such as Patti LaBelle, Jennifer
-						Hudson, Chance the Rapper, Shirley Caesar, Jennifer Holiday, Dionne
-						Warwick and Yolanda Adams among others.
-					</p>
+		<main class="contact-form-container">
+			<div class="container col-12 col-md-9 col-lg-9">
+				<div>
+					<div class="form-container my-5" id="contact">
+						<h1 class="contact-title text-center">Contact Us</h1>
+
+						<form name="contact" method="POST" data-netlify="true">
+							<!-- Name -->
+							<div class="indivual-contact-section mx-3 my-5">
+								<label class="mb-2">Your Name </label>
+								<div class="contact-name">
+									<p>
+										<input
+											class="input-box first-name col-12"
+											type="text"
+											name="first-name"
+											placeholder="First name"
+										/>
+									</p>
+								</div>
+								<div class="contact-name">
+									<p>
+										<input
+											class="input-box last-name col-12"
+											type="text"
+											name="last-name"
+											placeholder="Last name"
+										/>
+									</p>
+								</div>
+							</div>
+
+							<!-- Email -->
+							<div class="indivual-contact-section mx-3 my-5">
+								<label class="mb-2">Your Email</label>
+								<div class="contact-email">
+									<p>
+										<input
+											class="input-box email col-12"
+											type="email"
+											name="email"
+											placeholder="example@email.com"
+										/>
+									</p>
+								</div>
+							</div>
+
+							<!-- Message -->
+							<div class="indivual-contact-section mx-3">
+								<label class="mb-2">Message</label>
+								<div class="contact-message">
+									<p>
+										<textarea
+											class="message-input-box message col-12"
+											type="text"
+											name="message"
+											placeholder="Please enter your message."
+										></textarea>
+									</p>
+								</div>
+							</div>
+
+							<div class="mx-3" data-netlify-recaptcha="true"></div>
+							<p>
+								<button type="submit" class="contact-button btn btn-dark">
+									Submit
+								</button>
+							</p>
+						</form>
+						<!-- End of form -->
+						<!--  -->
+					</div>
 				</div>
 			</div>
 		</main>
