@@ -65,18 +65,43 @@ p.bio-paragrah {
 	justify-content: center;
 	z-index: 0;
 }
+
+/* .carousel .hero-description-container {
+	position: absolute;
+	z-index: 999;
+	display: flex;
+	top: 18%;
+	left: 77%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	padding: 1rem;
+
+
+}
+
+.carousel .hero-description-container p {
+	color: white;
+
+	font-size: 1.3rem;
+	letter-spacing: 1px;
+}
+.carousel .hero-description-container span {
+	color: var(--adia-color);
+	font-size: 3.5rem;
+} */
+
 .carousel .carousel-inner .hero-button-container {
 	position: absolute;
 	z-index: 999;
 	display: flex;
-	top: 64%;
-	left: 78%;
+	top: 67%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 }
 
 .carousel .hero-button-container button {
-	font-size: 2.5rem;
+	font-size: 1.3rem;
 	color: white;
 	text-transform: uppercase;
 	text-align: center;
