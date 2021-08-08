@@ -373,6 +373,10 @@ label {
 	color: var(--adia-color);
 }
 
+.contact-form-container {
+	margin: 0 auto;
+}
+
 .form-container {
 	max-width: 1000px;
 }
